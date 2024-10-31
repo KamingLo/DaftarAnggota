@@ -1,0 +1,8 @@
+// ini buat bikin database
+CREATE DATABASE anggota;
+USE anggota;
+CREATE TABLE anggota (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE
+);
